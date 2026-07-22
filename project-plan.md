@@ -212,7 +212,7 @@ The LLM handles the prose. The ranking logic can be either LLM-driven (simpler, 
 
 ---
 
-## 5.5 The streaming layer
+### 5.1 The streaming layer
 
 A router that runs three specialists in parallel is only interesting if the user can *see* it happen. Without live progress rendering, the CLI feels like a black box that spins for 10 seconds and dumps a wall of text.
 
